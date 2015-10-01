@@ -2,13 +2,32 @@
 
 Assists you to programmatically create, edit and delete Links on Instamojo in PHP.
 
+## Installation
+
+To add this package as a local, per-project dependency to your project, simply add a dependency on `beeeku/instamojo-php` to your project's `composer.json` file. Here is a minimal example of a `composer.json` file that just defines a dependency on PHP_Timer:
+
+    {
+        "require": {
+            "beeeku/instamojo-php": "~1.0"
+        }
+    }
+    
+OR 
+
+Install the latest version with
+
+```bash
+$ composer require beeeku/instamojo-php
+```
+
+
 
 ## Usage
 
 ### Create a Link
 
     <?php
-    require "instamojo.php";
+    require '../vendor/autoload.php';
 
     $api = new Instamojo('[API_KEY]', '[AUTH_TOKEN]');
 
@@ -32,7 +51,7 @@ This will give you JSON object containing details of the Link that was just crea
 ### Edit a Link
 
     <?php
-    require "instamojo.php";
+    require '../vendor/autoload.php';
 
     $api = new Instamojo('[API_KEY]', '[AUTH_TOKEN]');
 
@@ -52,7 +71,7 @@ This will give you JSON object containing details of the Link that was just crea
 ### List all Links
 
     <?php
-    require "instamojo.php";
+    require '../vendor/autoload.php';
 
     $api = new Instamojo('[API_KEY]', '[AUTH_TOKEN]');
 
@@ -68,7 +87,7 @@ This will give you JSON object containing details of the Link that was just crea
 ### List all Payments
 
     <?php
-    require "instamojo.php";
+    require '../vendor/autoload.php';
 
     $api = new Instamojo('[API_KEY]', '[AUTH_TOKEN]');
 
@@ -84,7 +103,7 @@ This will give you JSON object containing details of the Link that was just crea
 ### Get Details of a Payment using Payment ID
 
     <?php
-    require "instamojo.php";
+    require '../vendor/autoload.php';
 
     $api = new Instamojo('[API_KEY]', '[AUTH_TOKEN]');
 

@@ -1,0 +1,17 @@
+{
+  "name": "beeeku/instamojo-php",
+  "description": "A PHP wrapper for the instamojo API.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Bikash Dash",
+      "email": "beeeku@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}

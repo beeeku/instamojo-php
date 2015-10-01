@@ -1,6 +1,7 @@
 <?php
 
 class Instamojo {
+    
     const version = '1.1';
 
     protected $curl;
