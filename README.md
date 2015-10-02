@@ -4,7 +4,7 @@ Assists you to programmatically create, edit and delete Links on Instamojo in PH
 
 ## Installation
 
-To add this package as a local, per-project dependency to your project, simply add a dependency on `beeeku/instamojo-php` to your project's `composer.json` file. Here is a minimal example of a `composer.json` file that just defines a dependency on PHP_Timer:
+To add this package as a local, per-project dependency to your project, simply add a dependency on `beeeku/instamojo-php` to your project's `composer.json` file. Here is a minimal example of a `composer.json` file that just defines a dependency on instamojo-php:
 
     {
         "require": {
