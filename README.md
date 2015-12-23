@@ -8,7 +8,7 @@ To add this package as a local, per-project dependency to your project, simply a
 
     {
         "require": {
-            "beeeku/instamojo-php": "~1.0"
+            "beeeku/instamojo-php": "dev-master"
         }
     }
     
